@@ -10,6 +10,12 @@
     --bg-color: #f4f6fa;
     --purple: #a729f5;
     --white: #fff;
+    --button-bg: #fff;
+    --bg-html: #fff1e9;
+    --bg-css: #e0fdef;
+    --bg-js: #ebf0ff;
+    --bg-acessibilidade: #f6e7ff;
+    --shadow: 0px 16px 40px 0px rgba(143, 160, 193, 0.14);
     --secondary-text-color: #626c7f;
     --primary-text-color: #313e51;
     --bg-mobile: url(./assets/images/pattern-background-mobile-light.svg);
@@ -79,4 +85,37 @@ main{
     font-size: 14px;
     line-height: 150%;
     font-style: italic;
+}
+
+.assuntos{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.assuntos button{
+    border: none;
+    background: var(--button-bg);
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+}
+
+.botao_html div{
+    background: var(--bg-html);
+}
+
+.botao_css div{
+    background: var(--bg-css);
+}
+
+.botao_js div{
+    background: var(--bg-js);
+}
+
+.botao_acessibilidade{
+    background: var(--bg-acessibilidade);
 }
