@@ -19,6 +19,7 @@
     --secondary-text-color: #626c7f;
     --primary-text-color: #313e51;
     --bg-mobile: url(./assets/images/pattern-background-mobile-light.svg);
+    --bg-desktop: url(./assets/images/pattern-background-desktop-light.svg);
 }
 
 body{
@@ -132,4 +133,55 @@ main{
 
 .botao_acessibilidade{
     background: var(--bg-acessibilidade);
+}
+
+@media (min-width: 1100px) {
+  body{
+    background: var(--bg-desktop) var(--bg-color);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }  
+
+  header{
+    margin-block: 81px;
+  }
+
+  .tema img{
+    
+  }
+
+  main{
+    display: flex;
+    max-width: 1160px;
+    margin-inline: auto;
+  }
+
+  section{
+    width: 100%;
+  }
+
+  .boas_vindas h1{
+    font-size: 64px;
+    margin-bottom: 48px;
+  }
+
+  .boas_vindas p{
+    font-size: 20px;
+  }
+
+  .assuntos{
+    gap: 24px;
+  }
+
+  .assuntos button{
+    font-size: 28px;
+    padding: 20px;
+    gap: 32;
+  }
+
+  .assuntos button div{
+    width: 56px;
+    height: 56px;
+    padding: 8px;
+  }
 }
