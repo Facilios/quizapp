@@ -55,6 +55,7 @@ header{
     display: flex;
     align-items: center;
     gap: 16px;
+    color: var(--primary-text-color);
 }
 
 .assunto_icone{
