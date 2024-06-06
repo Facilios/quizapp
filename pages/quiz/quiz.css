@@ -152,7 +152,6 @@ main{
 
 .barra_progresso div{
     height: 100%;
-    width: 60%;
     background: var(--purple);
     border-radius: 999px;
 }
