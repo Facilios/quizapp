@@ -196,6 +196,7 @@ main button:hover{
 
     .assunto h1{
         font-size: 28px;
+        color: var(--primary-text-color);
     }
 
     .tema{
@@ -213,7 +214,7 @@ main button:hover{
     
       .tema button div{
         width: 20px;
-        height: 28px;
+        height: 20px;
       }
 
       main{
