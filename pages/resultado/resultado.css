@@ -153,7 +153,7 @@ main h2 strong{
 }
 
 .pontuacao p{
-    color: var(--secondary-text-color);
+    color: var(--secundary-text-color);
     font-size: 18px;
 }
 
@@ -237,6 +237,10 @@ main button:hover{
       .pontuacao{
         border-radius: 24px;
         margin-bottom: 32px;
+      }
+
+      .pontuacao strong{
+        font-size: 144px;
       }
 
       .resultados strong{

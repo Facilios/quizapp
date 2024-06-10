@@ -138,6 +138,10 @@ main{
     background: var(--bg-html);
 }
 
+#cor{
+  background: var(--bg-html);
+}
+
 .botao_css div{
     background: var(--bg-css);
 }
@@ -146,7 +150,7 @@ main{
     background: var(--bg-js);
 }
 
-.botao_acessibilidade{
+.botao_acessibilidade div{
     background: var(--bg-acessibilidade);
 }
 
